@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: #0a3d2e;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 12px;
+}
+
+.logo {
+  display: block;
+  margin: 15px auto;
+  width: 220px;
+}
+
+.partido {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto 1fr;
+  gap: 5px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.seleccionado {
+  background: gold;
+  color: black;
+}
